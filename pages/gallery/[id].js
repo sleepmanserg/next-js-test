@@ -1,4 +1,4 @@
-import Photo from "../components/Photo";
+import Photo from "../../components/Photo";
 
 export const getServerSideProps = async (context) => {
 	const { id } = context.query;

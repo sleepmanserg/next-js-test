@@ -1,7 +1,5 @@
-import Link from 'next/link'
-import ContactInfo from '../components/ContactInfo';
+import ContactInfo from '../../components/ContactInfo';
 import Head from 'next/head'
-import Heading from "../components/Heading";
 
 export const getServerSideProps = async (context) => {
 	const { id } = context.query;

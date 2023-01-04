@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Heading from "../components/Heading";
+import Heading from "../../components/Heading";
 import Link from "next/link";
 import styles from "../../styles/Posts.module.scss";
 
@@ -21,7 +21,6 @@ export const getStaticProps = async () => {
 }
 
 const Posts = ({ posts }) => {
-	console.log(posts)
 	return (
 		<div className={styles.posts}>
 			<Head>

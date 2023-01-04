@@ -1,4 +1,4 @@
-import PostInfo from '../components/PostInfo';
+import PostInfo from '../../components/PostInfo';
 
 export const getServerSideProps = async (context) => {
 	const { id } = context.query;
